@@ -123,6 +123,7 @@
         <value>2649600</value>
         <value>2745600</value>
         <value>2841600</value>
+        <value>3187200</value>
     </array>
     <array name="cpu.core_power.cluster2">
         <value>105.19</value>
@@ -145,13 +146,14 @@
         <value>409.84</value>
         <value>443.27</value>
         <value>493.34</value>
+        <value>677.24</value>
     </array>
     <item name="cpu.idle">12.91</item>
     <item name="cpu.suspend">7.85</item>
     <array name="memory.bandwidths">
         <value>22.7</value>
     </array>
-    <item name="battery.capacity">4520</item>
+    <item name="battery.capacity">4500</item>
     <item name="wifi.controller.idle">1</item>
     <item name="wifi.controller.rx">152</item>
     <item name="wifi.controller.tx">190</item>

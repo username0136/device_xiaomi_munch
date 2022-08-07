@@ -19,19 +19,19 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 PRODUCT_PACKAGES += \
-    AliothSystemUI
+    MunchSystemUI
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # Call the MiuiCamera setup
-$(call inherit-product-if-exists, vendor/xiaomi/camera/products/miuicamera.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/miuicamera.mk)
 
 # Camera
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/camera/camera_cnf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_cnf.txt
-
+PRODUCT_PACKAGES += \
+    libpiex_shim
+    
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
@@ -49,4 +49,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
+$(call inherit-product, vendor/xiaomi/munch/munch-vendor.mk)

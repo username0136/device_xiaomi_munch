@@ -11,7 +11,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.systemui.alioth">
+    package="com.android.systemui.munch">
 
     <overlay
         android:isStatic="true"

@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_alioth.mk
+    $(LOCAL_DIR)/lineage_munch.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_alioth-user \
-    aosp_alioth-userdebug \
-    aosp_alioth-eng
+    lineage_munch-user \
+    lineage_munch-userdebug \
+    lineage_munch-eng

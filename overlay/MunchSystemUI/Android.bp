@@ -13,7 +13,7 @@
 // limitations under the License.
 
 runtime_resource_overlay {
-    name: "AliothSystemUI",
+    name: "MunchSystemUI",
     sdk_version: "current",
     device_specific: true,
 }
