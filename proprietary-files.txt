@@ -1,4 +1,4 @@
-# Device proprietary files - from munch MIUI V14.0.3.0.TLMMIXM package, unless pinned
+# Device proprietary files - from munch MIUI V14.0.5.0.TLMMIXM package, unless pinned
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -402,6 +402,48 @@ vendor/lib64/camera/fdconfigvideolite.bin
 
 # Camera-sensor (Redmi K40S) - from munch MIUI V14.0.3.0.TLMCNXM
 vendor/lib64/camera/com.qti.sensormodule.munch_ofilm_imx582_wide.bin|2e2c737b926f67859917f5067fdc8027eac83c08
+
+# Touchfeature
+vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service
+vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc
+vendor/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
+vendor/lib/vendor.xiaomi.hardware.touchfeature@1.0.so
+vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
+vendor/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so
+
+# Audio FX OzoAudio
+system_ext/lib/libav_ozodecoder.so:vendor/lib/libav_ozodecoder.so
+system_ext/lib/libav_ozoencoder.so:vendor/lib/libav_ozoencoder.so
+system_ext/lib/libozoaudio.so:vendor/lib/libozoaudio.so
+system_ext/lib/libozowidening.so:vendor/lib/libozowidening.so
+system_ext/lib/soundfx/libozoprocessing.so:vendor/lib/soundfx/libozoprocessing.so
+system_ext/lib64/libav_ozodecoder.so:vendor/lib64/libav_ozodecoder.so
+system_ext/lib64/libav_ozoencoder.so:vendor/lib64/libav_ozoencoder.so
+system_ext/lib64/libozoaudio.so:vendor/lib64/libozoaudio.so
+system_ext/lib64/libozowidening.so:vendor/lib64/libozowidening.so
+system_ext/lib64/soundfx/libozoprocessing.so:vendor/lib64/soundfx/libozoprocessing.so
+
+# Audio FX modules
+vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libhwdap.so
+vendor/lib/soundfx/libmisoundfx.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
+vendor/lib/soundfx/libshoebox.so
+vendor/lib/soundfx/libswdap.so
+vendor/lib/soundfx/libswgamedap.so
+vendor/lib/soundfx/libswvqe.so
+vendor/lib64/soundfx/libasphere.so
+vendor/lib64/soundfx/libhwdap.so
+vendor/lib64/soundfx/libmisoundfx.so
+vendor/lib64/soundfx/libqcbassboost.so
+vendor/lib64/soundfx/libqcreverb.so
+vendor/lib64/soundfx/libqcvirt.so
+vendor/lib64/soundfx/libshoebox.so
+vendor/lib64/soundfx/libswdap.so
+vendor/lib64/soundfx/libswgamedap.so
+vendor/lib64/soundfx/libswvqe.so
 
 # Charger (HVDCP)
 vendor/bin/hvdcp_opti
