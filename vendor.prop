@@ -29,8 +29,3 @@ ro.vendor.audio.spk.clean=true
 ro.vendor.audio.spk.stereo=true
 ro.vendor.audio.voice.volume.boost=none
 vendor.audio.lowpower=true
-
-# Display
-ro.surface_flinger.has_HDR_display=true
-ro.surface_flinger.has_wide_color_display=true
-ro.surface_flinger.use_color_management=true
