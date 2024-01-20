@@ -9,10 +9,6 @@
 
 #include "vendor_init.h"
 
-#define FINGERPRINT_GL "POCO/munch_global/munch:13/RKQ1.211001.001/V14.0.4.0.TLMMIXM:user/release-keys"
-#define FINGERPRINT_CN "Redmi/munch/munch:13/RKQ1.211001.001/V14.0.7.0.TLMCNXM:user/release-keys"
-#define FINGERPRINT_IN "POCO/munch_in/munch:13/RKQ1.211001.001/V14.0.5.0.TLMINXM:user/release-keys"
-
 static const variant_info_t munch_in_info = {
     .hwc_value = "INDIA",
     .sku_value = "",
@@ -21,7 +17,6 @@ static const variant_info_t munch_in_info = {
     .marketname = "POCO F4",
     .mod_device = "munch_in_global",
     .model = "22021211RI",
-    .build_fingerprint = FINGERPRINT_IN,
     .nfc = true,
 };
 
@@ -33,7 +28,6 @@ static const variant_info_t munch_global_info = {
     .marketname = "POCO F4",
     .mod_device = "munch_global",
     .model = "22021211RG",
-    .build_fingerprint = FINGERPRINT_GL,
     .nfc = true,
 };
 
@@ -45,7 +39,6 @@ static const variant_info_t munch_info = {
     .marketname = "Redmi K40S",
     .mod_device = "munch_global",
     .model = "22021211RC",
-    .build_fingerprint = FINGERPRINT_CN,
     .nfc = true,
 };
 
