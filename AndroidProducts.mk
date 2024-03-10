@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_munch.mk
+    $(LOCAL_DIR)/hentai_munch.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_munch-user \
-    aosp_munch-userdebug \
-    aosp_munch-eng
+    hentai_munch-user \
+    hentai_munch-userdebug \
+    hentai_munch-eng
