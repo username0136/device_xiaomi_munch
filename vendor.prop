@@ -29,3 +29,6 @@ ro.vendor.audio.spk.clean=true
 ro.vendor.audio.spk.stereo=true
 ro.vendor.audio.voice.volume.boost=none
 vendor.audio.lowpower=true
+
+# TouchFeature
+ro.vendor.touchfeature.type=59
