@@ -552,34 +552,6 @@ vendor/lib64/sensors.mius.proximity.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.so
 
-# Thermal
-vendor/etc/thermal-4k.conf
-vendor/etc/thermal-8k.conf
-vendor/etc/thermal-camera.conf
-vendor/etc/thermal-chg-only.conf
-vendor/etc/thermal-class0.conf
-vendor/etc/thermal-engine.conf
-vendor/etc/thermal-hp-mgame.conf
-vendor/etc/thermal-hp-normal.conf
-vendor/etc/thermal-huanji.conf
-vendor/etc/thermal-map.conf
-vendor/etc/thermal-mgame.conf
-vendor/etc/thermal-navigation.conf
-vendor/etc/thermal-nolimits.conf
-vendor/etc/thermal-normal.conf
-vendor/etc/thermal-per-camera.conf
-vendor/etc/thermal-per-class0.conf
-vendor/etc/thermal-per-huanji.conf
-vendor/etc/thermal-per-navigation.conf
-vendor/etc/thermal-per-normal.conf
-vendor/etc/thermal-per-video.conf
-vendor/etc/thermal-per-videochat.conf
-vendor/etc/thermal-phone.conf
-vendor/etc/thermal-tgame.conf
-vendor/etc/thermal-video.conf
-vendor/etc/thermal-videochat.conf
-vendor/etc/thermald-devices.conf
-
 # Vibrator effects
 vendor/firmware/0_click_P_RTP.bin
 vendor/firmware/1_doubelClick_P_RTP.bin
