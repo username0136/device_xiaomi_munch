@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_munch.mk
+    $(LOCAL_DIR)/statix_munch.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_munch-user \
-    aosp_munch-userdebug \
-    aosp_munch-eng
+    statix_munch-user \
+    statix_munch-userdebug \
+    statix_munch-eng
