@@ -31,4 +31,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 include vendor/xiaomi/munch/BoardConfigVendor.mk
 
 # Firmware
+ifneq ($(wildcard vendor/xiaomi/munch-firmware/BoardConfigVendor.mk),)
 include vendor/xiaomi/munch-firmware/BoardConfigVendor.mk
+endif
